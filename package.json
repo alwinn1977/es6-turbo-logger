@@ -1,7 +1,7 @@
 {
   "name": "es6-turbo-logger",
   "description": "Useful logger for ES6 applications. Replaces the standard console.log function.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "author": "alwinn1977",
   "repository": "alwinn1977/es6-turbo-logger",
