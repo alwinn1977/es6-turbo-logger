@@ -42,7 +42,7 @@ log({a,b});
 
 In the browser console it will look like this:
 
-![es6-turbo-logger](docs/assets/screenshot1.png?style=centerme)
+![es6-turbo-logger](docs/assets/screenshot1.png)
 
 Optionally you can specify group label as a second argument:
 
@@ -56,7 +56,7 @@ log({a,b}, 'Group Label');
 
 In the browser console it will look like this:
 
-![es6-turbo-logger](docs/assets/screenshot2.png?style=centerme)
+![es6-turbo-logger](docs/assets/screenshot2.png)
 
 ## License
 
