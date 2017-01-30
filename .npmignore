@@ -33,6 +33,7 @@ coverage
 lib-cov
 html-report
 xunit.xml
+index.html
 
 .project
 .idea

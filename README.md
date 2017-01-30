@@ -8,8 +8,8 @@
 ![License](https://img.shields.io/npm/l/es6-turbo-logger.svg)
 
 Useful logger for ES6 applications.
-It provides *log* function that 
-replaces the standard *console.log* function
+It provides *log()* function that 
+replaces the standard *console.log()* function
 and outputs passed arguments in browser console as a group, indicating
 the names of the variables/constants that were passed.
 Optionally, you can specify group label.
@@ -29,7 +29,8 @@ And include in your project:
 import log from 'es6-turbo-logger';
 ```
 
-Then use *log* function instead standard *console.log*:
+Then use *log()* function instead standard *console.log()*,
+passing objects as a first argument in object wrapper:
 
 ```javascript
 const a = 'Hello';
@@ -38,7 +39,12 @@ log({a,b});
 
 
 ```
-Optionally you can specify group label:
+
+In the browser console it will look like this:
+
+![es6-turbo-logger](docs/assets/screenshot1.png?style=centerme)
+
+Optionally you can specify group label as a second argument:
 
 ```javascript
 const a = 'Hello';
@@ -47,6 +53,10 @@ log({a,b}, 'Group Label');
 
 
 ```
+
+In the browser console it will look like this:
+
+![es6-turbo-logger](docs/assets/screenshot2.png?style=centerme)
 
 ## License
 
