@@ -35,7 +35,8 @@ passing objects as a first argument in object wrapper:
 ```javascript
 const a = 'Hello';
 let b = 'World';
-log({a,b});
+const c = a.b;
+log({a,b,c});
 
 
 ```
@@ -49,7 +50,8 @@ Optionally you can specify group label as a second argument:
 ```javascript
 const a = 'Hello';
 let b = 'World';
-log({a,b}, 'Group Label');
+const c = a.b;
+log({a,b,c}, 'Group Label');
 
 
 ```
